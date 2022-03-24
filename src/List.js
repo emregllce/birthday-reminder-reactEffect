@@ -8,8 +8,10 @@ function List({people}) {
         return(
           <article key={id} className="person">
             <img src={image} alt={name} />
-            <h3>{name}</h3>
-            <p>{age} years old</p>
+            <div>
+              <h3>{name}</h3>
+              <p>{age} years old</p>
+            </div>
           </article>
         )
     
